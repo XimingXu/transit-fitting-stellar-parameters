@@ -1,6 +1,7 @@
 astropy==5.1
 astroquery==0.4.6
 batman_package==2.4.9
+basta==1.5.3
 catwoman==1.0.14
 celerite==0.4.2
 corner==2.2.2
