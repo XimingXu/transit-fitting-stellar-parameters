@@ -1,4 +1,4 @@
-# Transit Fitting for Stellar Parameters: Can Exoplanet Transits Improve Our Understanding of Host Star Properties?MSc Research Project in Astrophysics at UCL - Ximing Xu
+# Transit Fitting for Stellar Parameters: Can Exoplanet Transits Improve Our Understanding of Host Star Properties?
 ## MSc Research Project in Astrophysics at UCL - Ximing Xu
 ### Overview
 This repository contains the code and analysis pipeline for my MSc research project, supervised by Dr. Vincent Van Eylen. This research aims to investigate whether the presence of transiting exoplanets can contribute to a better understanding of the characteristics of their host stars.
