@@ -15,7 +15,14 @@ In the stellar modelling part, the `basta` package was used to perform stellar m
 - Combined model
 
 ### Sample Output
-![Transit Fit Result](Example_Outputs/transit_fitting_output_1.png)
+Transit Fitting Result for WASP-17b
+<p align="center">
+  <img src="example_outputs/transit_fitting_output_1.png" style="width:80%;"/>
+</p>
+Stellar Modelling Result for WASP-17 (Combined Model)
+<p align="center">
+  <img src="example_outputs/stellar_modelling_output_combined_model.png" style="width:80%;"/>
+</p>
 
 ### References
 - Aguirre Børsen-Koch, V., Rørsted, J. L., Justesen, A. B., et al. (2021). The Bayesian Stellar Algorithm BASTA: A fitting tool for stellar studies, Asteroseismology, exoplanets, and Galactic Archaeology. *Monthly Notices of the Royal Astronomical Society*, 509(3), 4344–4364. https://doi.org/10.1093/mnras/stab2911
