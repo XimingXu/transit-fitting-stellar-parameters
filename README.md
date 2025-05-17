@@ -9,10 +9,15 @@ This repository contains the code and analysis pipeline for my MSc research proj
 ### Methodology
 In the transit fitting part, the `lightkurve` package was used to process the TESS light curve data. This included normalizing the flux, removing outliers, and combining data from multiple data sectors. Then, the `juliet` package was used to fit the light curve and constrain exoplanet parameters such as planet-to-star radius ratio and the stellar density of their host stars.
 
-In the stellar modelling part, the `basta` package was used to perform stellar modelling of each host star based on three models
-- Light curve-based model
-- Spectroscopy-based model
-- Combined model
+In the stellar modelling part, the `basta` package was used to perform stellar modelling of each host star based on three models. These models share 7 common input parameters (starid, longitude, latitude, parallax, parallax_err, G_Gaia, G_Gaia_err), along with their own specific inputs as shown below.
+
+- Light curve-based model (rho, rho_err)
+- Spectroscopy-based model (Teff, Teff_err, FeH, FeH_err)
+- Combined model (Teff, Teff_err, FeH, FeH_err, rho, rho_err)
+
+The stellar density data are obtained from the transit fitting part, while the remaining stellar parameters — including galactic coordinates, parallax, Gaia magnitude, effective temperature, and metallicity — can be found in the NASA Exoplanet Archive. When the results from the light curve-based model and the spectroscopy-based model are consistent (i.e., the stellar density derived from light curve fitting is reliable), the combined model can better constrain the stellar parameters.
+
+**Note:** It is highly recommended to run `basta` in a new environment (e.g., Google Colab). Before running the main code, please upload the corresponding model `.py` file and the target `.ascii` file, also make sure the file paths are correct.
 
 ### Sample Output
 Transit Fitting Result for WASP-17b
