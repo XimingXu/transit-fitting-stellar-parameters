@@ -17,7 +17,11 @@ In the stellar modelling part, the `basta` package was used to perform stellar m
 
 The stellar density data are obtained from the transit fitting part, while the remaining stellar parameters — including galactic coordinates, parallax, Gaia magnitude, effective temperature, and metallicity — can be found in the NASA Exoplanet Archive. When the results from the light curve-based model and the spectroscopy-based model are consistent (i.e., the stellar density derived from light curve fitting is reliable), the combined model can better constrain the stellar parameters.
 
-**Note:** It is highly recommended to run `basta` in a new environment (e.g., Google Colab). Before running the main code, please upload the corresponding model `.py` file and the target `.ascii` file, also make sure the file paths are correct.
+### Dependencies
+This project consists of two main components: transit fitting and stellar modelling, each using different sets of code and dependencies.  
+
+- The transit fitting scripts are developed and tested with Python 3.11. Required packages are listed in the requirements.txt file.
+- The stellar modelling part uses `basta` version 1.5.3. It is highly recommended to run `basta` in a fresh virtual  environment (e.g., Google Colab). Before running the main code, please upload the corresponding model `.py` file and the target `.ascii` file, also make sure the file paths are correct.
 
 ### Sample Output
 Transit Fitting Result for WASP-17b
