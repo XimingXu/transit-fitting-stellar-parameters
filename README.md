@@ -34,8 +34,11 @@ Stellar Modelling Result for WASP-17 (Combined Model)
 </p>
 
 ### References
-- Aguirre Børsen-Koch, V., Rørsted, J. L., Justesen, A. B., et al. (2021). The Bayesian Stellar Algorithm BASTA: A fitting tool for stellar studies, Asteroseismology, exoplanets, and Galactic Archaeology. *Monthly Notices of the Royal Astronomical Society*, 509(3), 4344–4364. https://doi.org/10.1093/mnras/stab2911
-- Espinoza, N., Kossakowski, D., & Brahm, R. (2019). juliet: A versatile modelling tool for transiting and non-transiting exoplanetary systems. *Monthly Notices of the Royal Astronomical Society*, 490(2), 2262-2283. https://doi.org/10.48550/arXiv.1812.08549
-- Foreman-Mackey, D. (2016). Corner.py: Scatterplot matrices in Python. The Journal of Open 
-Source Software, 1(2), 24. https://doi.org/10.21105/joss.00024
-- Lightkurve Collaboration, Cardoso, J. V. d. M., Hedges, C., Gully-Santiago, M., Saunders, N., Cody, A. M., ... Barentsen, G. (2018). Lightkurve: Kepler and TESS time series analysis in Python [Software]. *Astrophysics Source Code Library*. http://adsabs.harvard.edu/abs/2018ascl.soft12013L
+- Lightkurve Collaboration, Cardoso, J. V. d. M., Hedges, C., et al. 2018, Lightkurve: Kepler and TESS time series analysis in Python, Astrophysics Source Code Library, record ascl:1812.013
+- Espinoza, N., Kossakowski, D., & Brahm, R. 2019, MNRAS, 490, 2262, doi: 10.1093/mnras/stz2688
+- Kreidberg, L. 2015, Publications of the Astronomical Society of the Pacific, 127, 1161–1165, doi: 10.1086/683602
+- Speagle, J. S. 2020, MNRAS, 493, 3132, doi: 10.1093/mnras/staa278
+- Foreman-Mackey, D. 2016, The Journal of Open Source Software, 1, 24, doi: 10.21105/joss.00024
+- Silva Aguirre, V., Davies, G. R., Basu, S., et al. 2015, Monthly Notices of the Roya Astronomical Society, 452, 2127–2148, doi: 10.1093/mnras/stv1388
+- Aguirre Børsen-Koch, V., Rørsted, J. L., Justesen, A. B., et al. 2021, Monthly Notices of the Roya Astronomical Society, 509, 4344–4364, doi: 10.1093/mnras/stab2911
+- BASTA source code: https://github.com/BASTAcode/BASTA
