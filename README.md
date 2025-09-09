@@ -42,3 +42,4 @@ Stellar Modelling Result for WASP-17 (Combined Model)
 - Silva Aguirre, V., Davies, G. R., Basu, S., et al. 2015, Monthly Notices of the Roya Astronomical Society, 452, 2127–2148, doi: 10.1093/mnras/stv1388
 - Aguirre Børsen-Koch, V., Rørsted, J. L., Justesen, A. B., et al. 2021, Monthly Notices of the Roya Astronomical Society, 509, 4344–4364, doi: 10.1093/mnras/stab2911
 - BASTA source code: https://github.com/BASTAcode/BASTA
+- Note: In the stellar modeling section, the codes for all three models are based on the [BASTA documentation example】(https://github.com/BASTAcode/BASTA/blob/main/examples/create_inputfile.py), with specific parameters adjusted for this study.
